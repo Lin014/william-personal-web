@@ -2,6 +2,7 @@ body {
   font-family: 'Bruno Ace SC', cursive;
   line-height: 1.5;
   font-size: 16px;
+  color: white;
 }
 
 .container {
@@ -10,11 +11,147 @@ body {
   margin: 0 auto;
 }
 
+.ai-c {
+  align-items: center;
+}
+
+.text-64 {
+  font-size: 64px;
+}
+
+.text-24 {
+  font-size: 24px;
+}
+
+.title {
+  color: #00FFA3;
+  font-size: 128px;
+  text-align: right;
+}
+
+.bg-intro {
+  background-image: url("../assets/images/background-img.png");
+}
+
+.card {
+  width: 636px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card a {
+  width: 306px;
+  display: block;
+  color: #15161D;
+  font-size: 20px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.08);
+  padding: 16px;
+}
+
+.card a p {
+  font-size: 16px;
+}
+
+.c-black {
+  color: black;
+}
+
+.bg-contact {
+  background: rgb(5,0,20);
+  background: linear-gradient(180deg, rgba(5,0,20,1) 0%, rgba(1,2,30,0.89) 89%);
+}
+
+.contact-icon {
+  box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.25);
+}
+
+.ac-r {
+  align-content: right;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.ai-s {
+  align-items: start;
+}
+
+.btn-more {
+  color: white;
+  background-color: black;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+// width
+.w-32 {
+  width: 32px;
+}
+
+.w-526 {
+  width: 526px;
+}
+
+.w-636 {
+  width: 636px;
+}
+
+.w-746 {
+  width: 746px;
+}
 
 // padding
-// margin-x
-// margin-y
-// margin-top
+.px-72 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.px-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.px-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
 // margin-bottom
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.mb-36 {
+  margin-bottom: 36px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
 // margin-left
+.ml-auto {
+  margin-left: auto;
+}
+.ml-4 {
+  margin-left: 4px;
+}
 // margin-right
+.mr-16 {
+  margin-right: 16px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+
